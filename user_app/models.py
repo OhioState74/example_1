@@ -4,7 +4,7 @@
 
 
 from django.contrib.auth.models import User
-from user_app.managers import PersonManager
+from user_app.managers import PersonManager 
 
 class Person(User):
     people = PersonManager()
