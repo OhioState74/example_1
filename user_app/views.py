@@ -7,6 +7,7 @@ from django.views.generic import TemplateView
 from django.views.generic import FormView
 from .models import Person
 
+
 class Index(TemplateView):
     template_name = 'index.html'
 

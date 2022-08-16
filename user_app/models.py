@@ -11,7 +11,7 @@ class Person(User):
 
     class Meta:
         proxy=True
-        ordering =('first_name')
+        ordering =('first_name',)
     
 
     def do_something(self):
